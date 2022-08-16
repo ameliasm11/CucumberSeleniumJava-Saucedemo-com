@@ -1,0 +1,166 @@
+-------------------------------------------------------------------------------
+Test set: Login on saucedemo.com
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.668 s <<< FAILURE! - in Login on saucedemo.com
+As user I want to Login with valid credentials(Login on saucedemo.com)  Time elapsed: 0.596 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'Open web url "https://www.saucedemo.com/"' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("Open web url {string}")
+public void open_web_url(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("Input username {string} and {string}")
+public void input_username_and(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Click on Login button")
+public void click_on_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Successfully login and navigate to Homepage")
+public void successfully_login_and_navigate_to_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+As user I want to Login with invalid credentials #1(Login on saucedemo.com)  Time elapsed: 0.013 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'Open web url "https://www.saucedemo.com/"' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("Open web url {string}")
+public void open_web_url(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("Input username {string} and {string}")
+public void input_username_and(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Click on Login button")
+public void click_on_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Login failed and error message appears")
+public void login_failed_and_error_message_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+As user I want to Login with invalid credentials #2(Login on saucedemo.com)  Time elapsed: 0.013 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'Open web url "https://www.saucedemo.com/"' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("Open web url {string}")
+public void open_web_url(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("Input username {string} and {string}")
+public void input_username_and(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Click on Login button")
+public void click_on_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Login failed and error message appears")
+public void login_failed_and_error_message_appears() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+As user I want to Login without input one of some credentials or without any credentials #1(Login on saucedemo.com)  Time elapsed: 0.02 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'Open web url "https://www.saucedemo.com/"' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("Open web url {string}")
+public void open_web_url(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("Input username {string} and {string}")
+public void input_username_and(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Click on Login button")
+public void click_on_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Login failed and error message appears based on which null fields")
+public void login_failed_and_error_message_appears_based_on_which_null_fields() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+As user I want to Login without input one of some credentials or without any credentials #2(Login on saucedemo.com)  Time elapsed: 0.013 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'Open web url "https://www.saucedemo.com/"' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("Open web url {string}")
+public void open_web_url(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("Input username {string} and {string}")
+public void input_username_and(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Click on Login button")
+public void click_on_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Login failed and error message appears based on which null fields")
+public void login_failed_and_error_message_appears_based_on_which_null_fields() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+As user I want to Login without input one of some credentials or without any credentials #3(Login on saucedemo.com)  Time elapsed: 0.011 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'Open web url "https://www.saucedemo.com/"' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("Open web url {string}")
+public void open_web_url(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("Input username {string} and {string}")
+public void input_username_and(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Click on Login button")
+public void click_on_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Login failed and error message appears based on which null fields")
+public void login_failed_and_error_message_appears_based_on_which_null_fields() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
