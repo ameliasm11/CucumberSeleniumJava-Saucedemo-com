@@ -9,7 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Login {
+public class ReusableLogin {
 
     WebDriver driver;
 
@@ -26,32 +26,14 @@ public class Login {
         driver.findElement(By.id("password")).sendKeys(password);
     }
 
-    @When("Click on Login button")
+    @And("Click on Login button")
     public void clickOnLoginButton() {
         driver.findElement(By.xpath("//input [@class='submit-button btn_action']")).click();
     }
 
-    @Then("Successfully login and navigate to Homepage")
+    @And("Successfully login and navigate to Homepage")
     public void successfullyLoginAndNavigateToHomepage() throws InterruptedException {
         driver.findElement(By.xpath("//div[@id='inventory_container']")).isDisplayed();
         Thread.sleep(15);
-        driver.close();
-        driver.quit();
-    }
-
-    @Then("Login failed and error message appears")
-    public void loginFailedAndErrorMessageAppears() throws InterruptedException {
-        driver.findElement(By.xpath("//div[@class='error-message-container error']")).isDisplayed();
-        Thread.sleep(15);
-        driver.close();
-        driver.quit();
-    }
-
-    @Then("Login failed and error message appears based on which null fields")
-    public void loginFailedAndErrorMessageAppearsBasedOnWhichNullFields() throws InterruptedException {
-        driver.findElement(By.xpath("//div[@class='error-message-container error']")).isDisplayed();
-        Thread.sleep(15);
-        driver.close();
-        driver.quit();
     }
 }
