@@ -33,12 +33,12 @@ public class Cart {
     @Then("User successfully login and navigate to Homepage")
     public void userSuccessfullyLoginAndNavigateToHomepage() throws InterruptedException {
         driver.findElement(By.xpath("//div[@id='inventory_container']")).isDisplayed();
-        Thread.sleep(15);
+        //Thread.sleep(15);
     }
 
     @When("Click on Cart Icon")
     public void clickOnCartIcon() {
-        driver.findElement(By.xpath("//*[@id=\"shopping_cart_container\"]/a")).sendKeys();
+        driver.findElement(By.xpath("//*[@id=\"shopping_cart_container\"]")).click();
     }
 
     @Then("Cart page displayed")
